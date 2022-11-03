@@ -1,0 +1,168 @@
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+}
+
+.leftside{
+    display: flex;
+
+}
+
+.navbar > .leftside > div{
+   margin-right: 20px;
+   font-size: 0.9em;
+   text-transform: uppercase;
+}
+
+.navlinks{
+    height: 22px;
+    border-bottom:1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.navlinks a{
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.navlinks:hover{
+    border-bottom: 1px solid black;
+}
+.navlinks a:hover{
+    color: black;
+}
+
+.active-navlink{
+    border-bottom: 1px solid black;
+
+}
+.active-navlink a{
+    color: black !important;
+}
+
+.brand{
+    padding : 0;
+}
+
+/* Home */
+.homeContent{
+    background-image: url(images/wave.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.intro{
+    font-size: 80px;
+    text-align: center;
+}
+
+.intro h1{
+    display: inline-block;
+    margin-bottom: 0px;
+}
+
+.subtitle{
+    display:flex;
+    align-items:center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.subtitle h2{
+    color: lightseagreen;
+}
+
+.explore h2{
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 1.6rem;
+    width: 0;
+    animation: typing 3s forwards;
+}
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+
+
+
+
+
+/* About */ 
+.twocolumns{
+    display: grid;
+    padding-left: 60px;
+    padding-right: 60px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.profile-content{
+    padding: 30px;
+    line-height: 1.6;
+    margin-bottom: 0px;
+}
+
+.lottie{
+    margin-left: 150px;
+    align-items: center;
+}
+.profile-content h1 {
+    color: purple;
+}
+.profile-img{
+    border-radius: 40px;
+}
+
+
+
+
+/* project page */
+
+.project-description h1{
+    font-size: 40px;
+    text-align: center;
+}
+
+.crowdsurf img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 40px;
+    margin-bottom: 60px;
+}
+
+.profile-image img{
+    border-radius: 60px;
+}
+
+.feed img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 60px;
+    width: 50%;
+
+    border-radius: 110px;
+}
+
+.crowdsurf h3{
+    font-size: 40px;
+    text-align: center;
+}
+
+
